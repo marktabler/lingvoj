@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require_relative "../lib/lingvoj"
+
+file_path = ARGV[0] || '.'
+Lingvoj.run!(file_path)
